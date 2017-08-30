@@ -15,6 +15,7 @@
 		FBBB941B1F5710D3007CB890 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBBB94191F5710D3007CB890 /* LaunchScreen.storyboard */; };
 		FBBB94261F5710D4007CB890 /* SCHSAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBB94251F5710D4007CB890 /* SCHSAppTests.swift */; };
 		FBBB94311F5710D4007CB890 /* SCHSAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBB94301F5710D4007CB890 /* SCHSAppUITests.swift */; };
+		FBBB943F1F57187B007CB890 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBB943E1F57187B007CB890 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FBBB942C1F5710D4007CB890 /* SCHSAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCHSAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBBB94301F5710D4007CB890 /* SCHSAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCHSAppUITests.swift; sourceTree = "<group>"; };
 		FBBB94321F5710D4007CB890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBBB943E1F57187B007CB890 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		FBBB940D1F5710D3007CB890 /* SCHSApp */ = {
 			isa = PBXGroup;
 			children = (
+				FBBB94401F571A16007CB890 /* Model */,
 				FBBB940E1F5710D3007CB890 /* AppDelegate.swift */,
 				FBBB94101F5710D3007CB890 /* FirstViewController.swift */,
 				FBBB94121F5710D3007CB890 /* SecondViewController.swift */,
@@ -126,6 +129,14 @@
 				FBBB94321F5710D4007CB890 /* Info.plist */,
 			);
 			path = SCHSAppUITests;
+			sourceTree = "<group>";
+		};
+		FBBB94401F571A16007CB890 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FBBB943E1F57187B007CB890 /* Model.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +276,7 @@
 				FBBB94131F5710D3007CB890 /* SecondViewController.swift in Sources */,
 				FBBB940F1F5710D3007CB890 /* AppDelegate.swift in Sources */,
 				FBBB94111F5710D3007CB890 /* FirstViewController.swift in Sources */,
+				FBBB943F1F57187B007CB890 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
